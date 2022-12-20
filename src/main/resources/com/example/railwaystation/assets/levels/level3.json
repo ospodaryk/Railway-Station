@@ -1,0 +1,65 @@
+{
+  "cell_size":45,
+  "width": 31,
+  "height": 21,
+  "doors": [
+    { "x": 0, "y": 4, "side": "west" },
+    { "x": 0, "y": 8, "side": "west" },
+    { "x": 30, "y": 4, "side": "east" },
+    { "x": 30, "y": 8, "side": "east" },
+    { "x": 15, "y": 20, "side": "south" }
+  ],
+  "cash_registers": [
+    { "x": 8, "y": 0, "side": "north" },
+    { "x": 15, "y": 0, "side": "north" },
+    { "x": 22, "y": 0, "side": "north" }
+  ],
+  "queues": [
+    [
+      { "x": 8, "y": 1, "sidemask": "0101" },
+      { "x": 8, "y": 2, "sidemask": "0101" },
+      { "x": 8, "y": 3, "sidemask": "0101" },
+      { "x": 8, "y": 4, "sidemask": "0101" },
+      { "x": 8, "y": 5, "sidemask": "0101" },
+      { "x": 8, "y": 6, "sidemask": "0101" },
+      { "x": 8, "y": 7, "sidemask": "0101" },
+      { "x": 8, "y": 8, "sidemask": "0101" },
+      { "x": 8, "y": 9, "sidemask": "0101" },
+      { "x": 8, "y": 10, "sidemask": "0101" },
+      { "x": 8, "y": 11, "sidemask": "0101" },
+      { "x": 8, "y": 12, "sidemask": "0101" },
+      { "x": 8, "y": 13, "sidemask": "0101" },
+      { "x": 8, "y": 14, "sidemask": "0101" }
+    ],
+    [
+      { "x": 15, "y": 1, "sidemask": "0101" },
+      { "x": 15, "y": 2, "sidemask": "0101" },
+      { "x": 15, "y": 3, "sidemask": "0101" },
+      { "x": 15, "y": 4, "sidemask": "0101" },
+      { "x": 15, "y": 5, "sidemask": "0101" },
+      { "x": 15, "y": 6, "sidemask": "0101" },
+      { "x": 15, "y": 7, "sidemask": "0101" },
+      { "x": 15, "y": 8, "sidemask": "0101" },
+      { "x": 15, "y": 9, "sidemask": "0101" },
+      { "x": 15, "y": 10, "sidemask": "0101" },
+      { "x": 15, "y": 11, "sidemask": "0101" },
+      { "x": 15, "y": 12, "sidemask": "0101" }
+    ],
+    [
+      { "x": 22, "y": 1, "sidemask": "0101" },
+      { "x": 22, "y": 2, "sidemask": "0101" },
+      { "x": 22, "y": 3, "sidemask": "0101" },
+      { "x": 22, "y": 4, "sidemask": "0101" },
+      { "x": 22, "y": 5, "sidemask": "0101" },
+      { "x": 22, "y": 6, "sidemask": "0101" },
+      { "x": 22, "y": 7, "sidemask": "0101" },
+      { "x": 22, "y": 8, "sidemask": "0101" },
+      { "x": 22, "y": 9, "sidemask": "0101" },
+      { "x": 22, "y": 10, "sidemask": "0101" },
+      { "x": 22, "y": 11, "sidemask": "0101" },
+      { "x": 22, "y": 12, "sidemask": "0101" },
+      { "x": 22, "y": 13, "sidemask": "0101" },
+      { "x": 22, "y": 14, "sidemask": "0101" }
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "users": {
+      "ordinary": "sprites/ordinary/ordinary",
+      "disabled" : "sprites/disabled.png",
+      "pregnant" : "sprites/pregnant.png"
+
+  },
+  "door": {
+      "north": "sprites/door_north.png",
+      "east": "sprites/door_east.png",
+      "south": "sprites/door_south.png",
+      "west": "sprites/door_west.png"
+  },
+  "cash_register": {
+      "north" : "sprites/cash_register_north.png",
+      "east" : "sprites/cash_register_east.png",
+      "south" : "sprites/cash_register_south.png",
+      "west" : "sprites/cash_register_west.png"
+  },
+  "queue_cells": {
+      "0000": "sprites/queue_tiles/0000.jpeg",
+      "0001": "sprites/queue_tiles/0001.jpeg",
+      "0010": "sprites/queue_tiles/0010.jpeg",
+      "0011": "sprites/queue_tiles/0011.jpeg",
+      "0100": "sprites/queue_tiles/0100.jpeg",
+      "0101": "sprites/queue_tiles/0101.jpeg",
+      "0110": "sprites/queue_tiles/0110.jpeg",
+      "0111": "sprites/queue_tiles/0111.jpeg",
+      "1000": "sprites/queue_tiles/1000.jpeg",
+      "1001": "sprites/queue_tiles/1001.jpeg",
+      "1010": "sprites/queue_tiles/1010.jpeg",
+      "1011": "sprites/queue_tiles/1011.jpeg",
+      "1100": "sprites/queue_tiles/1100.jpeg",
+      "1101": "sprites/queue_tiles/1101.jpeg",
+      "1110": "sprites/queue_tiles/1110.jpeg",
+      "1111": "sprites/queue_tiles/1111.jpeg"
+  }
+}

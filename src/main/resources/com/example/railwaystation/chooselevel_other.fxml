@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<AnchorPane maxHeight="900" maxWidth="667" minHeight="900" minWidth="667" prefHeight="900.0" prefWidth="667.0"
+            styleClass="level" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.railwaystation.UI.Controllers.ChooseLevelController">
+
+    <children>
+        <AnchorPane prefHeight="450.0" prefWidth="192.0">
+            <Text layoutX="600.0" layoutY="80.0"  styleClass="t" textAlignment="CENTER" text="Обрати рівень">
+                <font>
+                    <Font name="Georgia Bold" size="90.0"  />
+                </font>
+            </Text>
+            <children>
+                <Text layoutX="420.0" layoutY="160.0"  textAlignment="CENTER" text="Варіант 1">
+                    <font>
+                        <Font name="Georgia Bold" size="40.0" />
+                    </font>
+                </Text>
+                <Button fx:id="btnLevel1" layoutX="250.0" layoutY="200.0" mnemonicParsing="false"
+                        onAction="#chooseLevel1" prefHeight="372.0" prefWidth="600.0"
+                        style=" -fx-background-image:url('file:src/main/resources/com/example/railwaystation/img/levelview/level1Img.png');" text=" ">
+                    <font>
+                        <Font name="Georgia Regular" size="20.0"/>
+                    </font>
+                </Button>
+
+
+
+                <Text layoutX="1100.0" layoutY="160.0"  textAlignment="CENTER" text="Варіант 2">
+                    <font>
+                        <Font name="Georgia Bold" size="40.0" />
+                    </font>
+                </Text>
+                <Button fx:id="btnLevel2" layoutX="950.0" layoutY="180.0" mnemonicParsing="false"
+                        onAction="#chooseLevel2" prefHeight="426.0" prefWidth="600.0"
+                        style=" -fx-background-image:url('file:src/main/resources/com/example/railwaystation/img/levelview/level2Img.png');" text=" ">
+                    <font>
+                        <Font name="Georgia Regular" size="20.0"/>
+                    </font>
+                </Button>
+
+
+
+                <Text layoutX="750.0" layoutY="670.0"  textAlignment="CENTER" text="Варіант 3">
+                    <font>
+                        <Font name="Georgia Bold" size="40.0" />
+                    </font>
+                </Text>
+                <Button fx:id="btnLevel3" layoutX="450.0" layoutY="690.0" mnemonicParsing="false"
+                        onAction="#chooseLevel3" prefHeight="417.0" prefWidth="800.0"
+                        style=" -fx-background-image:url('file:src/main/resources/com/example/railwaystation/img/levelview/level3Img.png');" text=" ">
+                    <font>
+                        <Font name="Georgia Regular" size="20.0"/>
+                    </font>
+                </Button>
+
+
+
+
+
+
+
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

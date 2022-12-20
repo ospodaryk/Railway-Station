@@ -1,0 +1,47 @@
+{
+  "cell_size":60,
+  "width": 21,
+  "height": 21,
+  "doors": [
+    { "x": 0, "y": 5, "side": "west" },
+    { "x": 0, "y": 15, "side": "west" },
+    { "x": 20, "y": 5, "side": "east" },
+    { "x": 20, "y": 15, "side": "east" }
+  ],
+  "cash_registers": [
+    { "x": 10, "y": 9, "side": "north" },
+    { "x": 11, "y": 10, "side": "east" },
+    { "x": 10, "y": 11, "side": "south" },
+    { "x": 9, "y": 10, "side": "west" }
+  ],
+  "queues": [
+    [
+      { "x": 10, "y": 8, "sidemask": "0101" },
+      { "x": 10, "y": 7, "sidemask": "0101" },
+      { "x": 10, "y": 6, "sidemask": "0101" },
+      { "x": 10, "y": 5, "sidemask": "0101" },
+      { "x": 10, "y": 4, "sidemask": "0101" }
+    ],
+    [
+      { "x": 12, "y": 10, "sidemask": "1010"},
+      { "x": 13, "y": 10, "sidemask": "1010"},
+      { "x": 14, "y": 10, "sidemask": "1010"},
+      { "x": 15, "y": 10, "sidemask": "1010"},
+      { "x": 16, "y": 10, "sidemask": "1010"}
+    ],
+    [
+      { "x": 10, "y": 12, "sidemask": "0101" },
+      { "x": 10, "y": 13, "sidemask": "0101" },
+      { "x": 10, "y": 14, "sidemask": "0101" },
+      { "x": 10, "y": 15, "sidemask": "0101" },
+      { "x": 10, "y": 16, "sidemask": "0101" }
+    ],
+    [
+      { "x": 8, "y": 10, "sidemask": "1010" },
+      { "x": 7, "y": 10, "sidemask": "1010" },
+      { "x": 6, "y": 10, "sidemask": "1010" },
+      { "x": 5, "y": 10, "sidemask": "1010" },
+      { "x": 4, "y": 10, "sidemask": "1010" }
+    ]
+  ]
+}
